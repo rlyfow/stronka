@@ -1,0 +1,50 @@
+body
+{
+    background-color: black;
+}
+
+.nav
+{
+    background-color: darkblue;
+    font-size:1.5vw;
+}
+.nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav a
+{
+    float: left;
+    padding: 1vw;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.nav a:hover
+{
+    border: 0.3vw double red;
+    padding: 0.7vw;
+}
+.nav a:active
+{
+    border: 0.3vw double cyan;
+    background-color: darkorchid;
+    padding: 0.7vw;
+}
+.nav .exit
+{
+    color: yellow;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    padding: 1vw;
+}
+.nav .exit:hover
+{
+    border: 0.3vw double red;
+    padding: 0.7vw;
+}
